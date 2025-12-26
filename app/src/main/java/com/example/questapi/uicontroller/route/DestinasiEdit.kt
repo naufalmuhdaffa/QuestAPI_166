@@ -7,6 +7,6 @@ object DestinasiEdit : DestinasiNavigasi {
     override val titleRes = R.string.edit_siswa
 
     @Suppress("ktlint:standard:property-naming")
-    const val itemIdArg = "id"
+    const val itemIdArg = "idSiswa"
     val routeWithArgs = "$route/{$itemIdArg}"
 }
